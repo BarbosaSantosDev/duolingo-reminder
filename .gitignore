@@ -1,0 +1,6 @@
+# Pacotes gerados
+*.zip
+dist/
+
+# Schema compilado (gerado na instalação)
+**/schemas/gschemas.compiled

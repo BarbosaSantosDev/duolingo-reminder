@@ -1,0 +1,18 @@
+.duo-label {
+  font-weight: bold;
+}
+
+.duo-pendente .system-status-icon,
+.duo-pendente .duo-label {
+  color: #ffd166;
+}
+
+.duo-atrasado .system-status-icon,
+.duo-atrasado .duo-label {
+  color: #ff6b6b;
+}
+
+.duo-feito .system-status-icon,
+.duo-feito .duo-label {
+  color: #7bd88f;
+}

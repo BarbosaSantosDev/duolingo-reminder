@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.lembrete-duolingo"
+          path="/org/gnome/shell/extensions/lembrete-duolingo/">
+    <key name="username" type="s">
+      <default>''</default>
+      <summary>Usuário do Duolingo</summary>
+      <description>Nome de usuário público do perfil. Vazio = só modo manual.</description>
+    </key>
+    <key name="hora-alerta" type="i">
+      <range min="0" max="23"/>
+      <default>20</default>
+      <summary>Hora do alerta</summary>
+      <description>A partir desta hora, se a lição não foi feita, a coruja fica vermelha.</description>
+    </key>
+    <key name="intervalo-min" type="i">
+      <range min="5" max="240"/>
+      <default>15</default>
+      <summary>Intervalo de verificação (minutos)</summary>
+      <description>De quantos em quantos minutos consultar o Duolingo.</description>
+    </key>
+  </schema>
+</schemalist>

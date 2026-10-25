@@ -1,0 +1,8 @@
+{
+  "uuid": "lembrete-duolingo@joaosantos",
+  "name": "Lembrete Duolingo",
+  "description": "Coruja no painel para lembrar da lição diária do Duolingo. Fica amarela enquanto a lição está pendente, vermelha depois do horário de alerta e verde quando você já fez.\n\nProjeto não oficial, sem afiliação com o Duolingo.",
+  "shell-version": ["45", "46", "47", "48", "49", "50"],
+  "settings-schema": "org.gnome.shell.extensions.lembrete-duolingo",
+  "version": 4
+}
